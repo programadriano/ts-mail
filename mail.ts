@@ -1,5 +1,5 @@
 import * as nodemailer from "nodemailer";
-import config from './configs';
+import config from './configs/configs';
 
 class Mail {
 
@@ -12,7 +12,7 @@ class Mail {
     sendMail() {
 
         let mailOptions = {
-            from: "portalband@band.com.br",
+            from: "",
             to: this.to,
             subject: this.subject,
             html: this.message
