@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "compile": "tsc -w",
+    "prestart": "tsc -w",
     "start": "nodemon dist/server.js"
   },
   "keywords": [],

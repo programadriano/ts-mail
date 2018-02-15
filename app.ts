@@ -19,7 +19,7 @@ class App {
         });
 
         this.app.route("/").post((req, res) => {
-            const message = Object.assign({}, req.body);           
+            const message = Object.assign({}, req.body);     
             
             Mail.to = message.to;
             Mail.subject = message.subject;
