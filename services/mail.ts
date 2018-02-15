@@ -1,5 +1,5 @@
 import * as nodemailer from "nodemailer";
-import config from './configs/configs';
+import config from '../configs/configs';
 
 class Mail {
 
@@ -36,7 +36,7 @@ class Mail {
             if (error) {
                 return error;
             } else {
-                return info.response;
+                return "E-mail enviado com sucesso!";
             }
         });
     }
