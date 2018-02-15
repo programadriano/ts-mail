@@ -1,7 +1,7 @@
 import * as express from "express";
 import * as httpStatus from 'http-status';
 import * as bodyParser from "body-parser";
-import Mail from "./mail";
+import Mail from "./services/mail";
 
 class App {
 
